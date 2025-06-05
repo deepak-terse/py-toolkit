@@ -37,7 +37,12 @@ _Note: Each project has its own README. Navigate to the project folder for more.
 
 ## 📦 Dependency Management
 
-- For small scripts, shared dependencies live in `requirements.txt`.
-- For large projects, consider using `Pipfile`, `pyproject.toml`, or project-level `venv`.
+- For scripts, shared dependencies live in `requirements.txt`.
+- For projects, consider using `Pipfile`, `pyproject.toml`, or project-level `venv`.
+- Some projects may require additional setup (e.g., Ollama for RAG project).
 
 ---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

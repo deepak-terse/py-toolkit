@@ -1,2 +1,8 @@
 # Needed for python 3.10 and below
 .venv/
+
+Pipfile.lock
+
+# Projects - RAG
+**/chroma/
+**/data/

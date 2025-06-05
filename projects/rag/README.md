@@ -11,27 +11,66 @@ RAG works by:
 
 ## Features
 
-- Document ingestion and processing
-- Vector storage for efficient retrieval
-- Context-aware response generation
+- PDF document ingestion and processing
+- Vector storage using ChromaDB for efficient retrieval
+- Context-aware response generation using Ollama
+- Interactive web interface using Gradio
 - Integration with Langchain's powerful tools and utilities
+
+## Technologies Used
+
+- Langchain: RAG framework
+- PyPDF: Document Loader
+- ChromaDB: Vector Storage
+- Gradio: UI Library
+- Ollama: Local LLM Integration
+
+## Prerequisites
+
+- Python 3.12 or higher
+- Ollama server: Download from https://ollama.com/
 
 ## Setup
 
-[Setup instructions]
+1. Clone this repository
+2. Install dependencies using pipenv:
+   ```bash
+   pipenv install
+   pipenv install --dev  # for development dependencies
+   ```
+3. Pull the required Ollama model 'llama2' or any other model of your choice:
+   ```bash
+   ollama pull llama2
+   ```
+4. Start the Ollama server:
+   ```bash
+   ollama serve # alternatively you can simply open the Ollama app
+   ```
 
 ## Usage
 
-[Usage instructions will be added as the project develops]
+1. Place your PDF documents in the `data/` directory
+2. Activate the virtual environment:
+   ```bash
+   pipenv shell
+   ```
+3. Run the application:
+   ```bash
+   python src/app.py
+   ```
+4. Open your browser and navigate to `http://127.0.0.1:7860`
+5. Click "Populate Database" to process your documents
+6. Start asking questions about your documents!
 
 ## Project Structure
 
-[Project structure will be added as files are created]
-
-## Contributing
-
-Feel free to contribute to this project by submitting issues or pull requests.
-
-## License
-
-[Add appropriate license information]
+```
+rag/
+├── data/           # Directory for PDF documents
+├── src/            # Source code
+│   ├── scripts/    # Core functionality scripts
+│   └── utils/      # Utility functions
+├── chroma/         # Vector database storage
+├── Pipfile         # Python dependencies
+└── README.md       # This file
+```
