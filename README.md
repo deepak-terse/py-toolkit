@@ -19,6 +19,8 @@ A curated collection of Python scripts and small-scale projects for automation, 
 
 | Script                     | Description                                               |
 |---------------------------|-----------------------------------------------------------|
+| `intent_bot.py`           | A simulated AI assistant that mimics JARVIS's personality and speaking style. Uses pattern matching and intent detection to understand user queries and generate JARVIS-style responses. Features include time/date queries, jokes, and simulated note-taking capabilities. |
+| `stt.py`                  | Implements continuous speech-to-text conversion using Google's speech recognition service. Features real-time voice input processing, ambient noise adjustment, and continuous listening mode until the user says "bye". |
 | `tts.py`                  | Synthesizes text to speech using the TTS library with a pre-trained VCTK model. It is designed to produce human-like voice synthesis and is part of a proof of concept for an AI voice assistant project. |
 
 _Note: See individual script docstrings for more._

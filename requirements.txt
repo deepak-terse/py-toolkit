@@ -1,4 +1,9 @@
+# stt.py
+SpeechRecognition==3.10.0
+PyAudio==0.2.13
+
 # tts.py
-scipy==1.15.3
+numpy==1.22.0
+scipy>=1.11.2
 sounddevice==0.5.2
 tts==0.20.1
