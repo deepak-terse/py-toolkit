@@ -1,0 +1,67 @@
+# data/stories.yml
+version: "3.1"
+
+stories:
+- story: greet and goodbye
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: time inquiry
+  steps:
+  - intent: ask_time
+  - action: action_get_time
+  - action: utter_time
+
+- story: date inquiry
+  steps:
+  - intent: ask_date
+  - action: action_get_date
+  - action: utter_date
+
+- story: weather inquiry
+  steps:
+  - intent: weather_inquiry
+  - action: utter_weather
+
+- story: note creation
+  steps:
+  - intent: create_note
+  - action: utter_note
+
+- story: reminder setting
+  steps:
+  - intent: set_reminder
+  - action: utter_reminder
+
+- story: help request
+  steps:
+  - intent: help
+  - action: utter_help
+
+- story: joke request
+  steps:
+  - intent: tell_joke
+  - action: utter_joke
+
+- story: name inquiry
+  steps:
+  - intent: ask_name
+  - action: utter_name
+
+- story: search request
+  steps:
+  - intent: search_request
+  - action: utter_search
+
+- story: math request
+  steps:
+  - intent: math_query
+  - action: utter_math
+
+- story: out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_default

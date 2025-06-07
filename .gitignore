@@ -8,7 +8,6 @@ Pipfile.lock
 
 # Projects - RAG
 **/chroma/
-**/data/
 
 # Projects - RASA
 **/.rasa/

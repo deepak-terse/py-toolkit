@@ -1,0 +1,148 @@
+# data/nlu.yml
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi JARVIS
+    - good morning
+    - how are you
+    - greetings
+    - hey there
+    - what's up
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - signing off
+    - catch you later
+    - I'm done
+    - farewell
+    - talk to you soon
+
+- intent: ask_time
+  examples: |
+    - what time is it
+    - tell me the time
+    - current time
+    - what's the time
+    - do you have the time
+    - time check
+    - how late is it
+
+- intent: ask_date
+  examples: |
+    - what's today's date
+    - what day is it
+    - current date
+    - what's the date
+    - date please
+    - can you tell me the date
+    - day today
+
+- intent: weather_inquiry
+  examples: |
+    - what's the weather
+    - weather forecast
+    - is it going to rain
+    - temperature today
+    - how's the weather in [New York](location)
+    - will it snow tomorrow
+    - weather report
+
+- intent: create_note
+  examples: |
+    - take a note
+    - jot this down
+    - record this
+    - make a note
+    - write this down
+    - note this
+    - remember this
+    - take down this note
+
+- intent: set_reminder
+  examples: |
+    - set a reminder
+    - remind me
+    - create an alert
+    - notify me
+    - set an alarm
+    - schedule a reminder
+    - remind me to [call Pepper](reminder_text) at [5pm](reminder_time)
+
+- intent: thanks
+  examples: |
+    - thank you
+    - thanks
+    - appreciate it
+    - much obliged
+    - that's helpful
+    - I appreciate that
+    - cheers
+
+- intent: help
+  examples: |
+    - help
+    - what can you do
+    - how do you work
+    - capabilities
+    - assist me
+    - show me what you can do
+    - help menu
+    - functions
+
+- intent: tell_joke
+  examples: |
+    - tell me a joke
+    - make me laugh
+    - got any jokes
+    - say something funny
+    - humor me
+    - joke please
+    - tell me something amusing
+
+- intent: ask_name
+  examples: |
+    - what's your name
+    - who are you
+    - what should I call you
+    - your name
+    - identify yourself
+    - name please
+    - who am I speaking to
+
+- intent: search_request
+  examples: |
+    - search for [AI research](query)
+    - look up [Stark Industries](query)
+    - find [latest tech news](query)
+    - web search
+    - google [Iron Man](query)
+    - search the web
+    - find information about [nanotechnology](query)
+
+- intent: math_query
+  examples: |
+    - what's 5 plus 3
+    - calculate 100 divided by 4
+    - solve 2x + 5 = 15
+    - math problem
+    - 7 times 8
+    - 15 minus 9
+    - square root of 144
+    - 3 to the power of 4
+
+- intent: out_of_scope
+  examples: |
+    - how old are you
+    - what's your favorite color
+    - do you like music
+    - tell me about yourself
+    - who created you
+    - are you human
+    - what do you look like
