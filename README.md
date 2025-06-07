@@ -32,6 +32,7 @@ _Note: See individual script docstrings for more._
 | Project                   | Description                                               |
 |--------------------------|-----------------------------------------------------------|
 | `rag/`                   | A Retrieval-Augmented Generation (RAG) system using Langchain. Combines document retrieval with LLM generation for context-aware responses. Features include document processing, vector storage, and integration with Langchain's utilities. |
+| `rasa_dialogue_system/`  | A conversational AI system using Rasa framework. Features JARVIS-like personality with capabilities for time/date queries, weather information, note creation, reminders, and natural conversation. Implements NLU, dialogue management, and custom actions. |
 
 _Note: Each project has its own README. Navigate to the project folder for more._
 
@@ -41,7 +42,7 @@ _Note: Each project has its own README. Navigate to the project folder for more.
 
 - For scripts, shared dependencies live in `requirements.txt`.
 - For projects, consider using `Pipfile`, `pyproject.toml`, or project-level `venv`.
-- Some projects may require additional setup (e.g., Ollama for RAG project).
+- Some projects may require additional setup (e.g., Ollama for RAG project, Rasa for dialogue system).
 
 ---
 

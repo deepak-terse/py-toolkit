@@ -1,8 +1,15 @@
 # Needed for python 3.10 and below
 .venv/
 
+**/.venv*
+**/__pycache__/
+
 Pipfile.lock
 
 # Projects - RAG
 **/chroma/
 **/data/
+
+# Projects - RASA
+**/.rasa/
+models/
