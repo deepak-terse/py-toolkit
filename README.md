@@ -9,6 +9,7 @@ A curated collection of Python scripts and small-scale projects for automation, 
 ```
 .
 ├── .venv/ or .venv-env/    # Virtual environment (git-ignored)
+├── jupyter-notebooks/      # Interactive notebooks for data analysis and demos
 ├── scripts/                # Independent automation or utility scripts
 ├── projects/               # Larger prototypes or modular apps
 ├── requirements.txt        # Common dependencies (for quick setup)
